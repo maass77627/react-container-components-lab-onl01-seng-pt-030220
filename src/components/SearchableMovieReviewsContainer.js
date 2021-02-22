@@ -28,12 +28,11 @@ export default class SearchableMovieReviewsContainer extends Component {
             return(
                 <div>
                         <form onSubmit={this.handleSubmit}>
-                            
-                        </form>
 
+                        </form>
+                        this.state.reviews
                 </div>
             )
         }
 
     }
-
